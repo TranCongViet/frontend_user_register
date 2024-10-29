@@ -1,9 +1,12 @@
 {
+  "homepage": "http://TranCongViet.github.io/frontend_user_register",
   "name": "frontend-user-registration",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d <build folder name>", 
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
